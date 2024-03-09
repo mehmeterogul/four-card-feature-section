@@ -49,24 +49,24 @@ body {
   margin: var(--margin);
 }
 
-.header__title,
+.title,
 .card__title {
   color: var(--very-dark-blue);
 }
 
-.header__title {
+.title {
   text-align: center;
   font-size: var(--heading-font-size);
   display: flex;
   flex-direction: column;
 }
 
-.header__description {
+.description {
   text-align: center;
   margin: 1.25rem 0 5rem 0;
 }
 
-.header__title-thin {
+.title-thin {
   font-weight: var(--font-weight-thin);
   margin-bottom: 0.625rem;
 }
@@ -164,7 +164,7 @@ body {
     margin: var(--margin);
   }
 
-  .header__description {
+  .description {
     margin: 1.25rem 0 4.25rem 0;
   }
 
@@ -201,7 +201,7 @@ body {
 }
 
 @media only screen and (min-width: 56.25rem) {
-  .header__description {
+  .description {
     max-width: 50%;
     transform: translateX(50%);
   }
